@@ -106,14 +106,5 @@ namespace HW12_6_BankA
             if (!K.check) { check = false; errorMsg += K.errorMsg + " "; }
             return (check, errorMsg);
         }
-
-        //public static void DebugPrintList(List<Client> testClients)
-        //{
-        //    foreach (var item in testClients)
-        //    {
-        //        Debug.WriteLine(item);
-        //    }
-        //}
-
     }
 }
